@@ -1,0 +1,20 @@
+name: baliq_suv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas
+  - pyogrio
+  - shapely>=2
+  - pyproj
+  - rasterio
+  - odc-stac
+  - odc-geo
+  - pystac-client
+  - pandas
+  - numpy
+  - openpyxl
+  - matplotlib          # faqat rasmlar/yasash.py uchun
+  - pip
+  - pip:
+      - planetary-computer   # faqat --manba pc uchun
